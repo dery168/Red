@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "RFD Red High Light",
+    "version": "0.1",
+    "description": "High Light in red for Red Flag Deal",
+    "browser_action": {
+        "default_icon_disabled": {
+            "128": "icon-128.png"
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://forums.redflagdeals.com/*"
+            ],
+            "js": [
+                "index.js"
+            ],
+            "run_at": "document_start"
+        }
+    ]
+}
