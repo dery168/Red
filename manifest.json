@@ -1,9 +1,9 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "RFD Red High Light",
     "version": "0.1",
     "description": "High Light in red for Red Flag Deal",
-    "browser_action": {
+    "action": {
         "default_icon_disabled": {
             "128": "icon-128.png"
         }
